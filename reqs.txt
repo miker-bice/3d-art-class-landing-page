@@ -1,0 +1,8 @@
+Fonts:
+Fredoka One regular
+Poppins
+
+Colors:
+#0f72c3 - primary
+#3c3636
+#7c7c7c
