@@ -52,7 +52,7 @@ em{
 .icon{
     color: #fff;
     background-color: var(--sub-color);
-    padding: 10px;
+    padding: 5px;
     border-radius: 100%;
     display: inline-block;
 }
@@ -65,7 +65,8 @@ em{
     height: 100vh;
 }
 .navigation{
-    margin-top: 30px;
+    padding: 20px 0;
+    align-items: center;
 }
 .navbar-brand{
     grid-column: 1/4;
@@ -127,9 +128,22 @@ em{
 .hero-subtext h4{
     color: var(--secondary);
     margin: 20px 0;
-    width: 90%;
-    margin-left: auto;
+}
+.site-and-links{
+    align-items: center;
+}
+.website{
+    grid-column: 1/3;
+}
+.socials{
+    grid-column: 11/13;
+    justify-self: end;
 }
 .socials img{
     width: 20px;
+    align-self: center;
 }
+.socials a{
+    margin-left: 10px;
+}
+
